@@ -40,29 +40,28 @@ git clone https://github.com/your-username/fitguide-ai-agent.git
 
 cd fitguide-ai-agent
 
-2️⃣ Install dependencies
 
+2️⃣ Install dependencies
 pip install -r requirements.txt
 
-3️⃣ Setup environment variables
 
+3️⃣ Setup environment variables
 Create a .env file:
 
 GROQ_API_KEY=your_api_key_here
 
+
 ▶️ Run the App
-
 streamlit run capstone_streamlit.py
-
 Then open:
 
 http://localhost:8501
 
 
+
 🧠 How It Works
 
 User enters a query
-
 Agent routes the query:
 
 📚 Knowledge Base
@@ -80,8 +79,10 @@ Evaluation loop checks answer quality
 Final response is displayed
 
 
+
 📂 Project Structure
 .
+
 ├── capstone_streamlit.py   # Main Streamlit app
 
 ├── Capstone_project_23051339_Debdyuti.ipynb  # Development notebook
@@ -91,6 +92,7 @@ Final response is displayed
 ├── .env.example
 
 └── README.md
+
 
 
 🎯 Example Queries
@@ -106,24 +108,22 @@ Latest fitness research trends
 How does sleep affect muscle growth?
 
 
+
 ⚠️ Disclaimer
 
 This application provides general health and fitness guidance.
-
 It is not a substitute for professional medical advice.
-
 Consult a qualified healthcare provider for personalized recommendations.
+
 
 
 👨‍💻 Author
 
 Debdyuti Chakraborty
-
 BTech CSE | AI & ML Enthusiast
 
 
 ⭐ If you like this project
-
 Give it a star ⭐ and feel free to contribute!
 
 
